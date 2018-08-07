@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../../favicon.ico">
+
+	<title>Личный кабинет | Главная</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-th" aria-hidden="true"></span> Меркурий</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../about.html">Идея проекта</a></li>
+        <li><a href="../calc.html">Калькулятор</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Личный кабинет <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="admin.html"><i class="fa fa-users"></i>Взносы</a></li>
+            <li><a href="wallet.html"><i class="fa fa-history"></i>История операций</a></li>
+            <li><a href="profile.html"><i class="fa fa-cog"></i>Настройки</a></li>
+            <li><a href="message.html"><i class="fa fa-envelope"></i>Сообщения</a></li>
+            <li class="divider"></li>
+            <li><a href="../index.html"><i class="fa fa-sign-out"></i>Выход из личного кабинета</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section>
+	<div class="container">
+		
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<h4 class="col-md-9">Владелец:<span class="label label-default">Иванов Петр Васильевич</span></h4>
+					<h4 class="col-md-3 text-right"><span>Баланс:</span><span class="label label-default">34 780.31 <i class="fa fa-rub"></i></span></h4>
+
+				</div>
+			</div>
+
+		
+		<div class="row">
+			<div class="col-md-3">
+				<div class="list-group">
+					<a href="admin.html" class="list-group-item"><i class="fa fa-users"></i>Взносы</a>
+					<a class="list-group-item" href="wallet.html"><i class="fa fa-history"></i>История операций</a>
+					<a class="list-group-item active" href="profile.html"><i class="fa fa-cog"></i>Настройки</a>
+					<a class="list-group-item" href="message.html"><i class="fa fa-envelope"></i>Сообщения</a>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<h1 class="page-header">Настройки</h1>
+
+				<div class="row">
+					
+					<div class="col-md-6">
+						<div class="btn-group btn-group-justified">
+							<a href="profile.html" class="btn btn-default">Личные данные</a>
+							<a href="profile2.html" class="btn btn-primary">Банковские реквизиты</a>
+						</div>
+					</div>
+				</div>
+				
+				<hr>
+				<div class="col-md-5">
+				<form class="form-profile">
+					
+					<div class="form-group">
+						<label>Название банка</label>
+						<input type="text" class="form-control" placeholder="Название банка">
+						<label>БИК</label>
+						<input type="text" class="form-control" placeholder="БИК">
+						<label>КПП</label>
+						<input type="text" class="form-control" placeholder="КПП">
+					</div>
+					<div class="form-group">
+						<label>Идентификационный код</label>
+						<input type="text" class="form-control" placeholder="Идентификационный код">
+						<label>Расчетный счет</label>
+						<input type="text" class="form-control" placeholder="Расчетный счет">
+						<label>Получатель</label>
+						<input type="text" class="form-control" placeholder="Получатель">
+						<label>Назначение платежа</label>
+						<input type="text" class="form-control" placeholder="Дар">
+						<label>Номер карты</label>
+						<input type="text" class="form-control" placeholder="Номер карты">
+					</div>
+					
+					<button type="submit" class="btn btn-default">Сохранить</button>
+				</form>
+				</div>
+
+				<div class="col-md-5 well well-sm pull-right">
+					<ul>
+						<h4>Получение и использование персональной информации</h4>
+						<li>Программа "проект Меркурий – взаимный фонд" получает персональную информацию о Вас, когда Вы регистрируетесь в качестве пользователя проекта и когда Вы находитесь на сайте программы.</li>
+						<li>Когда Вы регистрируетесь на сайте программы, мы спрашиваем Ваши имя и фамилию, а также ряд дополнительных данных. Все эти данные могут понадобиться для восстановления вашего доступа в случае потери пароля.</li>
+						<li>Программа автоматически получает и записывает в серверные логи техническую информацию из Вашего браузера: IP адрес, cookie и адрес запрашиваемой страницы.</li>
+						<li>Мы также спрашиваем адрес электронной почты (e-mail), который нужен для быстрого и безопасного восстановления пароля или для того, чтобы администрация программы могла связаться с вами в экстренных случаях. Этот адрес никогда не будет использоваться программой ни для каких рассылок, не связанных с работой проекта.</li>
+						<li>Всю полученную информацию программа "проект Меркурий – взаимный фонд" использует с одной основной целью: сделать наш сервис максимально удобным и полезными для Вас.</li>
+					</ul>
+					
+					<form class="text-center">
+						<div class="checkbox">
+					      <label>
+					        <input type="checkbox" value="agree" checked="true" disabled>С правилами согласен</label>
+					    </div>
+					</form>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<p class="text-center">&copy; 2016 Меркурий</p>
+	</div>
+</footer>
+
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<!-- <script>
+	$(function(){
+		$('#sort-table').tablesorter({
+			sortList:[[0,0],[1,0]]
+		});
+	});
+</script> -->
+
+<script>
+	var $rows = $('table tr');
+	$('.search-form').keyup(function(){
+		var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+		$rows.show().filter(function(){
+			var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+			return !~text.indexOf(val);
+		}).hide();
+	});
+</script>
+
+
+</body>
+</html>

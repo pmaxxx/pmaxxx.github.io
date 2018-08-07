@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="../../favicon.ico">
+
+	<title>Личный кабинет | Главная</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/font-awesome.css" rel="stylesheet">
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-th" aria-hidden="true"></span> Меркурий</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../index.html">Главная</a></li>
+        <li><a href="../about.html">Идея проекта</a></li>
+        <li><a href="../calc.html">Калькулятор</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Личный кабинет <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="admin.html"><i class="fa fa-users"></i>Взносы</a></li>
+            <li><a href="wallet.html"><i class="fa fa-history"></i>История операций</a></li>
+            <li><a href="profile.html"><i class="fa fa-cog"></i>Настройки</a></li>
+            <li><a href="message.html"><i class="fa fa-envelope"></i>Сообщения</a></li>
+            <li class="divider"></li>
+            <li><a href="../index.html"><i class="fa fa-sign-out"></i>Выход из личного кабинета</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section>
+	<div class="container">
+		
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<h4 class="col-md-9">Владелец:<span class="label label-default">Иванов Петр Васильевич</span></h4>
+					<h4 class="col-md-3 text-right"><span>Баланс:</span><span class="label label-default">34 780.31 <i class="fa fa-rub"></i></span></h4>
+
+				</div>
+			</div>
+
+		
+		<div class="row">
+			<div class="col-md-3">
+				<div class="list-group">
+					<a href="admin.html" class="list-group-item"><i class="fa fa-users"></i>Взносы</a>
+					<a class="list-group-item" href="wallet.html"><i class="fa fa-history"></i>История операций</a>
+					<a class="list-group-item" href="profile.html"><i class="fa fa-cog"></i>Настройки</a>
+					<a class="list-group-item active" href="message.html"><i class="fa fa-envelope"></i>Сообщения</a>
+				</div>
+			</div>
+			<div class="col-md-9">
+				<h1 class="page-header">Личные сообщения</h1>
+				<div class="row">
+					<div class="col-md-6">
+						<a href="#" class="btn btn-default" data-toggle="modal" data-target="#newMsg">
+							<i class="glyphicon glyphicon-plus"></i> Написать сообщение
+						</a>
+					</div>
+					<!-- <div class="input-group col-md-4 pull-right">
+						<input type="text" class="form-control search-form" placeholder="Найти участника">
+					</div> -->
+				</div>
+				
+				<hr>
+
+				<h4>История сообщений:</h4>
+
+				<div class="panel panel-default">
+					<a href="im.html">
+						<div class="panel-heading">Секунов Валентин Миронович<i class="pull-right">26.03.2016 / 17:43</i></div>
+
+					</a>
+					<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates perspiciatis placeat ullam omnis tempore corporis pariatur nam, aperiam commodi unde, amet, minus suscipit similique earum sint voluptatum eligendi cupiditate quae!</div>
+					<!-- <div class="panel-footer">Panel footer</div> -->
+				</div>
+
+				<div class="panel panel-default">
+					<a href="im.html">
+						<div class="panel-heading">Белова Марина Тарасовна<i class="pull-right">24.03.2016 / 13:12</i></div></a>
+					<div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates perspiciatis placeat ullam omnis tempore corporis pariatur nam, aperiam commodi unde, amet, minus suscipit similique earum sint voluptatum eligendi cupiditate quae!</div>
+					<!-- <div class="panel-footer">Panel footer</div> -->
+				</div>
+
+			</div>
+		</div>
+	</div>
+</section>
+
+<footer>
+	<div class="container">
+		<p class="text-center">&copy; 2016 Меркурий</p>
+	</div>
+</footer>
+
+<!-- Modal -->
+<div class="modal fade" id="newMsg" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Написать новое сообщение</h4>
+      </div>
+      <div class="modal-body">
+      <form>
+      	<div class="form-group controls">
+      		<label for="UserEmail">Выберите участника</label>
+      		<select class="form-control" id="UserEmail">
+				<option value="UserEmail@ya.ru">UserEmail@ya.ru</option>
+				<option value="UserEmail2@ya.ru">UserEmail2@ya.ru</option>
+				<option value="UserEmail3@ya.ru">UserEmail3@ya.ru</option>
+      		</select>
+			<label for="textMsg">Текст сообщения</label>
+			<textarea id="textMsg" class="form-control" rows="3" placeholder="Текст сообщения"></textarea>
+		</div>
+		</form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Отправить сообщение</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.js"></script>
+<script src="js/bootstrap.js"></script>
+
+<!-- <script>
+	$(function(){
+		$('#sort-table').tablesorter({
+			sortList:[[0,0],[1,0]]
+		});
+	});
+</script> -->
+
+<script>
+	var $rows = $('table tr');
+	$('.search-form').keyup(function(){
+		var val = $.trim($(this).val()).replace(/ +/g, ' ').toLowerCase();
+		$rows.show().filter(function(){
+			var text = $(this).text().replace(/\s+/g, ' ').toLowerCase();
+			return !~text.indexOf(val);
+		}).hide();
+	});
+</script>
+
+
+</body>
+</html>
