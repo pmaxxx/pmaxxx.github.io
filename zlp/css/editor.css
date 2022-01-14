@@ -1,0 +1,203 @@
+ @import url('/fonts/opensans.css');
+
+/*.gal,*/.tableBorder1 td,.tableBorder1Padding5 td{border:1px solid #ccc}
+table{border-collapse:collapse}
+.tableBorder1Padding5 td{padding:5px}
+.tableBorder1Padding5 td table td {
+	border:0;
+	padding: 0;
+}
+
+.tableBorder1Padding10 td{border:1px solid #ccc; padding:10px}
+.tableBorder1Padding10 td table td {
+	border:0;
+	padding: 0;
+}
+
+.tableBorder1Padding15 td{border:1px solid #ccc; padding:15px}
+.tableBorder1Padding15 td table td {
+	border:0;
+	padding: 0;
+}
+
+.tableBorder0Padding10 td{border:none; padding:10px}
+.tableBorder0Padding10 td table td {
+	border:0;
+	padding: 0;
+}
+
+.tableBorder0Padding15 td{border:none; padding:15px}
+.tableBorder0Padding15 td table td {
+	border:0;
+	padding: 0;
+}
+
+.tableBorder0Padding5 td{border:none; padding:5px}
+.tableBorder1Padding5 td table td {
+	border:0;
+	padding: 0;
+}
+
+.imghover:hover{opacity:.7}
+
+body{
+	font-size:14px;
+    font-family: 'Open Sans';
+	background: #fff;
+}
+/* p {
+    margin: 0;
+    padding: 0;
+}*/
+.mce-content-body  .toggler {
+	border:#ccc 1px dashed;
+}
+.preimtd,
+.preimtd20,
+.preimtd30,
+.preimtd70,
+.preimtd50,
+.preimtd-tablet,
+.preimtd50_100 {
+	display: table-cell;
+	padding: 10px;
+	vertical-align: top;
+}
+
+.cell-float-left {
+	float: left;
+	width: 50%;
+	display: block;
+	padding: 15px;
+}
+.cell-float-right {
+	float: right;
+	width: 50%;
+	display: block;
+	padding: 15px;
+}
+td p {margin-bottom: 0}
+a {
+	color: #0066a2;
+}
+a:focus, a:hover {
+    outline: none !important;
+    opacity: 0.9;
+}
+h1 {
+	font-size: 36px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.home h1 {
+	padding:0;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 30px;
+	padding: 0 0 10px 0;
+	margin: 0 0 .5rem 0;
+}
+h3 {
+	font-size: 24px;
+    padding: 0;
+	margin: 10px 0;
+	font-weight: bold !important;
+	    font-weight: 500;
+
+}
+
+
+.preimtd50_100 tr td:first-child {
+	padding-right: 20px;
+}
+#tinymce .toggler_inline {
+	border:#ccc 1px dashed;
+}
+.h2main {
+	font-size: 48px;
+	font-weight: 700;
+	text-align: center;
+}
+.slogan1 {
+	font-size: 38px;
+	line-height: 38px;
+	font-weight: 800;
+}
+.slogan2 {
+	font-size: 19px;
+}
+.footer-form-desc {
+  font-size: 17px;
+  font-weight: 500;
+  text-align: center;
+}
+@media (max-width: 991px) {
+	.preimtd50_100 {
+		display: block ;
+		padding: 5px 0 ;
+		width: 50% !important;
+		float: left;
+	}
+	.preimtd-tablet,.cell-float-left,.cell-float-right {
+		display: block ;
+		padding: 5px 0;
+		width: 100% !important;
+	}
+	.cell-float-left,.cell-float-right {
+		padding: 15px;
+	}
+	.slogan1 {
+		font-size: 24px;
+		line-height: 24px;
+	}
+	.slogan2 {
+		font-size: 14px;
+	}
+}
+@media (max-width: 767px) {
+	.h2main {
+		font-size: 31px;
+	}
+	.preimtd50_100 tr td:first-child {
+		min-width: 90px;
+	}
+	.preimtd,
+	.preimtd50_100 {
+		display: block ;
+		padding: 5px 0 !important;
+		width: 100% !important;
+		height: auto !important;
+	}
+	.preimtd50 {
+		display: block ;
+		padding: 5px 5px !important;
+		width: 50% !important;
+		float: left;
+	}
+	.preimtd20 {
+		display: block ;
+		padding: 5px 0 !important;
+		width: 20% !important;
+		float: left;
+	}
+	.preimtd30 {
+		display: block ;
+		padding: 5px 0 !important;
+		width: 33% !important;
+		float: left;
+	}
+	.preimtd70 {
+		display: block ;
+		padding: 5px 0 !important;
+		width: 70% !important;
+		float: left;
+	}
+	table:after{
+		clear: both;
+	}
+
+
+}
